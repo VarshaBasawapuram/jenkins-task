@@ -67,15 +67,15 @@
 	</build>
 <distributionManagement>
 	<repository>
-		<id>deploymentRepo</id>
+		<id>deploy-repo</id>
 		<name>deploy-repo</name>
-		<url>http://35.196.116.207:8081/repository/deploy-repo/</url>
+		<url>http://localhost:8081/repository/deploy-repo/</url>
 	</repository>
  
 	<snapshotRepository>
-		<id>deploymentRepo</id>
-		<name>snapshot</name>
-		<url>http://35.196.116.207:8081/repository/snapshot/</url>
+		<id>snap</id>
+		<name>snap</name>
+		<url>http://localhost:8081/repository/snap/</url>
 	</snapshotRepository>
 </distributionManagement>
 
