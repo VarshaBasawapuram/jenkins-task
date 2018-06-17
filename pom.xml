@@ -71,12 +71,7 @@
 		<name>deploy-repo</name>
 		<url>http://localhost:8081/repository/deploy-repo/</url>
 	</repository>
- 
-	<snapshotRepository>
-		<id>snap</id>
-		<name>snap</name>
-		<url>http://localhost:8081/repository/snap/</url>
-	</snapshotRepository>
+
 </distributionManagement>
 
 
